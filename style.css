@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: url(images/bg-hero-desktop.svg);
+    background: url(images/bg-hero-mobile.svg);
+}
+.head2{
+    width: 400px;
+    height: 300px;
+    margin-left: 880px;
+    margin-top: -200px;
+    
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-left: 1020px;
+    border-radius: 10px;
+    background-color: white;
+    color: brown;
+    transition: .4s ease;
+    
+}
+.btn:hover{
+    background-color: goldenrod;
+}
+
+.head{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.headee{
+    margin-top: 60px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.headees{
+    margin-left: 30px;
+
+}
+.btn2{
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+    background-color: palevioletred;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    transition: .4s ease;
+}
+.btn2:hover{
+    background-color: goldenrod;
+}
+.body{
+ 
+        background-color: white;
+        display: flex;
+        place-items: center;
+        min-height: 130vh;
+
+}
+main{
+    display: grid;
+    grid-template-areas: "a"
+    "b"
+    "c";
+    gap: 10px;
+    width: 95%;
+    margin: auto;
+    
+
+}
+main div{
+    padding: 2cm;
+    
+    
+}
+
+.ItemA{
+    background-color: whitesmoke;
+    grid-area: a;
+    height: 70px;
+    
+}
+.ItemB{
+    background-color: whitesmoke;
+    grid-area: b;
+    height: 70px;
+}
+.ItemC{
+    background-color: whitesmoke;
+    grid-area: c;
+    height: 70px;
+}
+.together{
+    width: 400px;
+    height: 160px;
+    margin-left: 800px;
+    margin-top: -200px;
+}
+.conversation{
+    width: 400px;
+    height: 160px;
+    margin-left: 5px;
+    margin-top: -200px;
+}
+.users{
+    width: 400px;
+    height: 160px;
+    margin-left: 800px;
+    margin-top: -200px;
+}
+.flow{
+    margin-left: 800px;
+}
+.fc{
+    margin-left: 800px;
+}
