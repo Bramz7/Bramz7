@@ -48,7 +48,7 @@
     margin-left: 30px;
     margin-top: 20px;
     color: white;
-    background-color: palevioletred;
+    background-color: hsl(322, 100%, 66%);
     border-bottom: none;
     border-right: none;
     border-top: none;
@@ -75,6 +75,7 @@ main{
     width: 95%;
     margin: auto;
     
+    
 
 }
 main div{
@@ -87,17 +88,19 @@ main div{
     background-color: whitesmoke;
     grid-area: a;
     height: 70px;
-    
+    width: 85%;
 }
 .ItemB{
     background-color: whitesmoke;
     grid-area: b;
     height: 70px;
+    width: 85%;
 }
 .ItemC{
     background-color: whitesmoke;
     grid-area: c;
     height: 70px;
+    width: 85%;
 }
 .together{
     width: 400px;
@@ -118,8 +121,129 @@ main div{
     margin-top: -200px;
 }
 .flow{
-    margin-left: 800px;
+    margin-left: 755px;
 }
 .fc{
-    margin-left: 800px;
+    margin-left: 755px;
+}
+.lane{
+    display: grid;
+    grid-template-areas: "d";
+    gap: 10px;
+    width: 40%;
+    margin: auto;
+    background-color: whitesmoke;
+    grid-area: d;
+    height: 50px;
+    padding: 1cm;
+    
+}
+.build{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 20px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    transition: .4s ease;
+}
+.build:hover{
+    background-color: goldenrod;
+}
+.ready{
+    text-align: center;
+}
+.bottom{
+    background-color: hsl(192, 100%, 9%);
+    display: grid;
+    grid-template-areas: "e";
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    grid-area: e;
+    height: 160px;
+    padding: 2cm;
+}
+.bottoms{
+    width: 100px;
+    margin-top: -40px;
+    margin-left: -45px;
+    color: white;
+    
+}
+.lorem{
+    margin-left: -20px;
+    color: white;
+    margin-top: -27px;
+}
+.phone{
+    margin-left: -20px;
+    color: white;
+    margin-top: -26px;
+}
+.email{
+    margin-left: -20px;
+    color: white;
+    margin-top: -28px;
+}
+.about{
+    margin-top: -175px;
+    color: white;
+    margin-left: 580px;
+}
+.what{
+    margin-top: -141px;
+    color: white;
+    margin-left: 580px;
+}
+.Faq{
+    margin-top: -105px;
+    color: white;
+    margin-left: 583px;
+}
+.career{
+    margin-top: -204px;
+    color: white;
+    margin-left: 850px;
+}
+.blog{
+    margin-top: -170px;
+    color: white;
+    margin-left: 850px;
+}
+.contact{
+    margin-top: -137px;
+    color: white;
+    margin-left: 850px;
+}
+.copy{
+    margin-top: -67px;
+    margin-left: 1008px;
+    color: white;
+}
+.locatio{
+    width: 10px;
+    margin-top: 5px;
+    margin-left: -45px;
+    
+    
+}
+.phon{
+    width: 10px;
+    margin-top: -12px;
+    margin-left: -45px;
+    
+    
+}
+.emai{
+    width: 10px;
+    margin-top: -12px;
+    margin-left: -45px;
+    
+    
 }
