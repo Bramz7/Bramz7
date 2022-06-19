@@ -11,6 +11,8 @@
     height: 300px;
     margin-left: 880px;
     margin-top: -200px;
+    max-width: 100%;
+    height: auto;
     
 }
 .btn{
@@ -28,6 +30,8 @@
 }
 
 .head{
+    max-width: 100%;
+    height: auto;
     width: 100px;
     margin-top: 20px;
     margin-left: 30px;
@@ -36,6 +40,7 @@
     margin-top: 60px;
     margin-left: 30px;
     font-weight: bold;
+    font-family: poppins;
 }
 .headees{
     margin-left: 30px;
@@ -113,12 +118,14 @@ main div{
     height: 160px;
     margin-left: 5px;
     margin-top: -200px;
+    
 }
 .users{
     width: 400px;
     height: 160px;
     margin-left: 800px;
     margin-top: -200px;
+    
 }
 .flow{
     margin-left: 755px;
@@ -134,18 +141,22 @@ main div{
     margin: auto;
     background-color: whitesmoke;
     grid-area: d;
-    height: 50px;
+    height: 70px;
     padding: 1cm;
     
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -80px;
 }
 .build{
     width: 200px;
     height: 40px;
     border-radius: 10px;
     margin-left: 170px;
-    margin-top: 20px;
+    margin-top: 15px;
     color: white;
-    background-color: hsl(322, 100%, 66%);
+    
+    background-color: hsl(324, 4%, 75%);
     border-bottom: none;
     border-right: none;
     border-top: none;
@@ -173,8 +184,11 @@ main div{
     width: 100px;
     margin-top: -40px;
     margin-left: -45px;
-    color: white;
     
+    
+}
+path.bottoms{
+    fill: white;
 }
 .lorem{
     margin-left: -20px;
