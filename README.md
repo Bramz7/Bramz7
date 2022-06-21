@@ -1,1 +1,1 @@
-My published github page is https://bramz7.github.io/Bramz7/
+My published github page is https://bramz7.github.io/Bramz7/index.html
